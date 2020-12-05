@@ -1,4 +1,8 @@
-console.log("Script is working from app.js");
+var btnTranslate = document.querySelector("#btn-translate");
 
-var username = prompt("Your name ?")
-alert("HELLO "+ username)
+function clickHandler() {
+    console.log("clicked!");
+};
+
+btnTranslate.addEventListener("click", clickHandler)
+

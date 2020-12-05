@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Amatic SC', cursive;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+}
